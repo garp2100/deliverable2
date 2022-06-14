@@ -15,7 +15,6 @@ class mainClass
         string drinkOrder;
         double totalBill = partySize * 9.99;
 
-
         if (partySize > 0 && partySize <= 6)
         {
             Console.Write("A table for " + partySize + "! Please follow me and take a seat");
@@ -57,7 +56,6 @@ class mainClass
 
         Console.WriteLine("Okay, so that's " + coffeeOrders + " coffees and " + waterOrders + " waters. I'll be right back. Feel free to grab your food!");
         
-
         totalBill = (coffeeOrders * 2.00) + (totalBill);
         Console.WriteLine("");    
         Console.WriteLine("Here's your bill! Total price: $" + totalBill);
